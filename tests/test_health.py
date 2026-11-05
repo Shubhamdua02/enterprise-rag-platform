@@ -3,7 +3,7 @@ from app.health import get_health_status
 
 def test_health_status_is_healthy():
     result = get_health_status()
-    assert result["status"] == "unhealthy"
+    assert result["status"] == "healthy"
 
 
 def test_health_status_contains_service_names():
