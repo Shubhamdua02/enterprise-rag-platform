@@ -1,7 +1,7 @@
 def main():
-	print("Enterprise RAG Platform")
-	print("Environment initialized succesfully")
+    print("Enterprise RAG Platform")
+    print("Environment initialized succesfully")
 
 
-if __name__=="__main__":
-	main()
+if __name__ == "__main__":
+    main()
